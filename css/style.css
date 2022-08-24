@@ -1,0 +1,87 @@
+body{
+    background: #E9DAC1;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #100720;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2{
+    text-align: center;
+    color: #100720;
+    font-size: 60px;
+    font-weight: 700;  
+}
+p {
+    font-size: 22px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#hero{
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+form {
+    background: linear-gradient(#876445 , #876445);
+    width: 80%;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 40px 70px;
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+form label{
+    width: 100%;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+}
+form input,
+form textarea,
+form select {
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 86%;
+    /*background: transparent;*/
+    border: 1px solid rgb(180, 133, 133);
+}
+form button{
+    background: black;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 22px;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: .5s;
+}
+ section{
+    width: 100%;
+    min-height: 500px;
+    padding: 60px 0;
+    text-align: center;
+    background-size: cover;
+ }
+
+ section button{
+    padding: 12px 30px;
+    background: #94B49F;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 10px;
+ }
+
+ section button:hover{
+    background: transparent;
+    border: 2px solid #000000;
+    color: black;
+ }
